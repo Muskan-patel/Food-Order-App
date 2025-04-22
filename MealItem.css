@@ -1,0 +1,62 @@
+/* Styles for the price tag */
+.price-tag {
+    display: inline-block;
+    position: relative;
+    margin: 0.5rem 0;
+    background: #f8b500;
+    color: #2d2d2d;
+    font-weight: bold;
+    padding: 0.25rem 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transform: rotate(-2deg);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.price-tag::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -0.5rem;
+    width: 0.5rem;
+    height: 100%;
+    background: #e8a400;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.price-tag::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -0.7rem;
+    width: 0.3rem;
+    height: 0.3rem;
+    background: #2d2d2d;
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.price-value {
+    font-size: 1.2rem;
+    letter-spacing: 0.03em;
+}
+
+/* Removed the ::before pseudo-element that added the $ symbol */
+
+/* Hover effect */
+.meal-item:hover .price-tag {
+    transform: rotate(0deg) scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Make sure the meal item has relative positioning for proper hover effects */
+.meal-item {
+    position: relative;
+    color:#fff;
+    transition: transform 0.3s ease;
+}
+
+.meal-item:hover {
+    transform: translateY(-5px);
+}

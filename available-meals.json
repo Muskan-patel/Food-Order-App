@@ -1,0 +1,151 @@
+[
+  {
+    "id": "m1",
+    "name": "Tomato Soup",
+    "price": "99",
+    "description": "",
+    "image": "images/tomato-soup.avif"
+  },
+  {
+    "id": "m2",
+    "name": "Lemon-coriander Soup",
+    "price": "49",
+    "description": "",
+    "image": "images/lemon-soup.avif"
+  },
+  {
+    "id": "m3",
+    "name": "Veg. Sweet Corn",
+    "price": "99",
+    "description": "",
+    "image": "images/sweet-corn.jpg"
+  },
+
+  {
+    "id": "m4",
+    "name": "Sandwich",
+    "price": "99",
+    "description": "",
+    "image": "images/Sandwich.avif"
+  },
+  {
+    "id": "m5",
+    "name": "Veggie Burger",
+    "price": "80",
+    "description": "",
+    "image": "images/burger.jpeg"
+  },
+  {
+    "id": "m6",
+    "name": " Frankie Rolls",
+    "price": "99",
+    "description": "",
+    "image": "images/frankie.jpg"
+  },
+  {
+    "id": "m7",
+    "name": "Cheese Chilli Pizza",
+    "price": "179",
+    "description": "",
+    "image": "images/pizza.jpeg"
+  },
+  {
+    "id": "m8",
+    "name": "Masala Dosa",
+    "price": "99",
+    "description": "",
+    "image": "images/dosa.jpg"
+  },
+  {
+    "id": "m9",
+    "name": " Cheese Burge",
+    "price": "99",
+    "description": "",
+    "image": "images/chees-burger.jpeg"
+  },
+  {
+    "id": "m10",
+    "name": "Pani Puri",
+    "price": "49",
+    "description": "",
+    "image": "images/pani-puri.png"
+  },
+  {
+    "id": "m11",
+    "name": "Panner Tikka",
+    "price": "149",
+    "description": "",
+    "image": "images/paneer-tikka.jpeg"
+  },
+  {
+    "id": "m12",
+    "name": "Dabeli",
+    "price": "29",
+    "description": "",
+    "image": "images/dabeli.webp"
+  },
+  {
+    "id": "m13",
+    "name": "PavBhaji",
+    "price": "99",
+    "description": "",
+    "image": "images/pav-bhaji.jpeg"
+  },
+  {
+    "id": "m13",
+    "name": "Vada Pav",
+    "price": "49",
+    "description": "",
+    "image": "images/vada-pav.jpeg"
+  },
+  {
+    "id": "m13",
+    "name": "Pancake",
+    "price": "49",
+    "description": "",
+    "image": "images/pancake.jpeg"
+  },
+  {
+    "id": "m14",
+    "name": "Pastry",
+    "price": "69",
+    "description": "",
+    "image": "images/pastry.jpeg"
+  },
+  {
+    "id": "m15",
+    "name": "Cakes",
+    "price": "199",
+    "description": "",
+    "image": "images/cake.jpg"
+  },
+  {
+    "id": "m16",
+    "name": "Gulab Jamun",
+    "price": "49",
+    "description": "",
+    "image": "images/gulab.jpg"
+  },
+  {
+    "id": "m17",
+    "name": "Rasmalai",
+    "price": "99",
+    "description": "",
+    "image": "images/rasmalai.jpg"
+  },
+  {
+    "id": "m18",
+    "name": "Gajar Ka Halwa",
+    "price": "80",
+    "description": "",
+    "image": "images/halwa.jpg"
+  },
+
+  {
+    "id": "m20",
+    "name": "Ice-Creame",
+    "price": "99",
+    "description": "",
+    "image": "images/icecreame.avif"
+  }
+]
