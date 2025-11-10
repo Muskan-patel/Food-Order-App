@@ -41,7 +41,7 @@ export default function Meals() {
         data: loadedMeals,
         isLoading,
         error,
-    } = useHttp('http://localhost:3000/meals',  requestConfig, []);
+    } = useHttp('https://backend-visc.onrender.com/meals',  requestConfig, []);
 
      
 
