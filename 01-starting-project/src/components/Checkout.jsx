@@ -2,7 +2,7 @@ import { useContext, useEffect } from "react";
 import Modal from "./UI/Modal.jsx";
 import CartContext from "../store/CartContext.jsx";
 import { currencyFormatter } from "../util/formatting";
-import Input from "./UI/input.jsx";
+import Input from "./UI/Input.jsx";
 import UserProgressContext from "../store/UserProgressContext.jsx";
 import Button from "./UI/Button.jsx";
 import useHttp from "../hooks/useHttp.js";
