@@ -1,0 +1,52 @@
+.menu-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+.menu-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.menu-header h2 {
+    font-size: 2.5rem;
+    color: #f8b500;
+    margin-bottom: 0.5rem;
+}
+
+.menu-header p {
+    font-size: 1.1rem;
+    color: #777;
+}
+
+.menu-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.filter-btn {
+    padding: 0.5rem 1.5rem;
+    background-color: #f5f5f5;
+    border: none;
+    border-radius: 30px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+    background-color: #e0e0e0;
+}
+
+.filter-btn.active {
+    background-color: #f8b500;
+    color: #fff;
+}
+
+/* You can keep the existing styles for #meals and .meal-item from your current CSS */
